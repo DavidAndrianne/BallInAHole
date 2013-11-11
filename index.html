@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ball in the Hole App</title>
+        <link rel="stylesheet" type="text/css" href="webapp.css"/>
+        <link REL="SHORTCUT ICON" HREF="resources/BitH.ico">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="ballInHole_functions.js" type="text/javascript"></script>
+        <script src="ball_functions.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Ball in the Holez</h1>
+                <h2>Rotate your cellphone to move the ball into the hole!</h2>
+            </div>
+            <div id="content">
+                <div id="chronometer">
+                    <p id="time">00:00:00</p>
+                    <!--<a id="fullscreenButton" class="fadable" href="javascript:onFullscreen(event);" style="display: none;"> … </a>-->
+                </div>
+                <div id="gamePanel">
+                    <canvas id="surface"> </canvas>
+                </div>
+                <div id="buttonsContainer">
+                    <button id="playBtn" onclick="play()">► Play</button>
+                    <button id="pauseBtn" onclick="pause()"> ▌▌ Pause</button>
+                    <button id="stopBtn" onclick="stop()">■ Stop</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

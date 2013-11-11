@@ -1,0 +1,161 @@
+/* Algemene settings */
+body{
+    font: 13px helvetica, verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+div#container{
+	margin: 0 auto;
+	width: 800px;
+}
+
+div{
+	padding : 0 10px 10px 10px;
+}
+
+/* Content */
+canvas#surface{
+    background-color: #00FF00;
+    height: 420px;
+    width: 400px;
+    padding: 0 10px;
+}
+
+/*@media screen and (orientation: portrait){*/
+    p#time{
+        margin-top: 0px;
+        padding-left: 155px;
+        font: bold 20px helvetica, verdana, sans-serif;
+    }
+
+    div#chronometer{
+        height: 20px;
+        background-color: #68E;
+        width: 400px;
+    }
+    
+    div#gamePanel{
+        height: 420px;
+        width: 400px;
+        padding: 0px;
+    }
+    
+    div#buttonsContainer{
+        height: 20px;
+        width: 400px;
+        background-color: #68E;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+    }
+    button#playBtn{
+        margin-left: 40px;
+        /* background-image:url('resources/btnplay-web.png'); */
+    }
+    button#pauseBtn{
+        /* background-image:url('resources/btnpause-web.png'); */
+    }
+    button#stopBtn{
+        /* background-image:url('resources/btnstop-web.png'); */
+    }
+/*}*/
+
+#fullscreenButton {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #ff0000;
+}
+
+/*@media screen and (orientation: landscape){ /* and (max-width: 480px){ 
+    p#time{
+        margin-top: 0px;
+        padding-left: 200px;
+        font: bold 20px helvetica, verdana, sans-serif;
+    }
+
+    div#chronometer{
+        background-color: #68E;
+        height: 20px;
+        width: 460px;
+    }
+    
+    div#gamePanel{
+        height: 400px;
+        width: 460px;
+    }
+    
+    div#buttonsContainer{
+        width: 460px;
+        height: 20px;
+        background-color: #68E;
+    }
+}*/
+
+/* Navigatie balk */
+div#navbar{
+	padding: 10px 5px;
+	float : left;
+}
+
+ul#navlist
+{
+	margin-left: 0;
+	padding-left: 0;
+	width: 760px;
+}
+
+#navlist li
+{
+    display: inline;
+    list-style-type: none;
+}
+
+#navlist a { padding: 3px 10px; }
+
+#navlist a:link, #navlist a:visited
+{
+	text-decoration: none;
+	border: 2px solid #000;
+	font: bold 12px helvetica, verdana, sans-serif;
+	color : #000;
+	border-radius: 15px;
+}
+
+#navlist a:hover
+{
+	background-color: #2A6;
+	text-decoration: none;
+}
+
+
+/* Header */
+div#titel{
+	margin : 0 0 60px 175px;
+}
+
+img#logo{
+	float: left;
+}
+
+/* Content */
+div#content{
+	/*padding : 20px 0 0 0;*/
+}
+
+/* Footer */
+div#footer{
+	border-top : 1px solid #666;
+	padding : 2px 0 0 0;
+}
+
+p#foot{
+	margin : 0;
+	text-align:center;
+}
